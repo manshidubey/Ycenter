@@ -1924,13 +1924,13 @@ Google map
 	Call to action
 --------------------------------------------------------------*/
 .callout-text {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(05, 05, 05, 0.6);
 }
 
 .callout-title {
   font-weight: 400;
   font-size: 16px;
-  color: #fff;
+  color: black;
   margin: 0;
 }
 
