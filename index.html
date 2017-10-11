@@ -23,8 +23,8 @@
     <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
     <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
     <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+     <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
         <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
 
@@ -43,7 +43,8 @@
       <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src ="assets/images/Ycenter-circlelogo-vectorBJWBoost-1.pn"></a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"></button>
+            <a href="index.html"><img src ="assets/Ycenter-img/Ycenter-circlelogo-vectorBJWBoost-1.png"></a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -66,8 +67,7 @@
                   </li>
                   <li class="dropdown"><a href="#">About</a></li>
                 </ul>
-              </li>
-                                    
+             </div>                       
         </div>
       </nav>
 
@@ -76,7 +76,7 @@
 
 
 	
-      <section class="home-section home-full-height home-fade bg-dark-30" id="home">
+      <section class="home-section home-full-height home-fade bg-dark-60" id="home" data-background="assets/Ycenter-img/banner1.jpg">
   		<div class="container-fluid">
 
 		  <div class="row">
@@ -84,8 +84,8 @@
 		  	<div class="col-md-6 col-sm-6 col-xs-12">
 			    <div class="ycenter-caption">
 			          <div class="caption-content">
-			            <div class="font-alt mb-30 ycenter-title-size-1">Hello &amp; welcome</div>
-			            <div class="font-alt mb-40 ycenter-title-size-4">To Y-center</div>
+			            <div class="font-alt mb-10 ycenter-title-size-2">We bring real world context to learning in order to create meaningful learning experiences</div>
+			            <div class="font-alt mb-10 ycenter-title-size-3">Ycenter</div>
 
 			            <a class="section-scroll btn btn-border-w btn-round " style="margin-right: 5px;" href="#about">Programs</a>
 			             <a class="section-scroll btn btn-border-w btn-round" href="#about">Product</a>
@@ -93,16 +93,15 @@
 			        </div>
 			  </div>
 
-
-			  <div class="col-md-6 col-sm-6 col-xs-12">
+			  	<!-- Video for Header -
+			  				  <div class="col-md-6 col-sm-6 col-xs-12">
 			  	<div class="ycenter-caption">
 
 				    <iframe width="420" height="315"
 							src="https://www.youtube.com/embed/XGSy3_Czz8k">
-					</iframe> </div>
-				<div>
-			  </div>
-
+					</iframe> 
+				</div>
+						commented for cliarity for now -->
 		  </div>
 
 		</div>
@@ -141,7 +140,7 @@
           <div class="container">
           	 <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Scoreboard/Impact</h2>
+                <h2 class="module-title font-alt">Impact</h2>
               </div>
             </div>
             <div class="row multi-columns-row">
@@ -177,7 +176,7 @@
           </div>
         </section>
 <!-- Impact End -->
-        
+<!--Project Begins-->        
         <section class="module pb-0" id="works">
           <div class="container">
             <div class="row">
@@ -253,9 +252,9 @@
             </div>
           </div>
         </section>
-        
+<!--Project Ends-->        
         <hr class="divider-w">
-       
+<!--Testimonials Begin-->       
         <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/testimonial_bg.jpg">
           <div class="testimonials-slider pt-140 pb-140">
             <ul class="slides">
@@ -334,60 +333,72 @@
             </ul>
           </div>
         </section>
-        <section class="module" id="news">
+<!--Testimonials Ens-->       
+
+        
+
+<!-- Press Begin-->
+        <section class="module-small bg-light p-0">
           <div class="container">
-            <div class="row">
+          	<br><br>
+          	<div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Latest blog posts</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                <h3 class="module-title-press font-alt">Press</h3>
               </div>
             </div>
-            <div class="row multi-columns-row post-columns">
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Our trip to the Alps</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Mark Stone</a>&nbsp;| 23 November | 3 Comments
-                    </div>
+            <div class="row client">
+              <div class="owl-carousel text-center" data-items="6" data-pagination="false" data-navigation="false">
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><a href = "#"><img src="assets/Ycenter-img/Net_Impact_Logo_0.png" alt="Client Logo"/></a></div>
                   </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">Shore after the tide</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Andy River</a>&nbsp;| 11 November | 4 Comments
-                    </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-2.png" alt="Client Logo"/></div>
                   </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                  </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4">
-                <div class="post mb-20">
-                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
-                  <div class="post-header font-alt">
-                    <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
-                    <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
-                    </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/Ycenter-img/Net_Impact_Logo_0.png" alt="Client Logo"/></div>
                   </div>
-                  <div class="post-entry">
-                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-4.png" alt="Client Logo"/></div>
                   </div>
-                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-5.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-1.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-2.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-3.png" alt="Client Logo"/></div>
+                  </div>
+                </div>
+                <div class="owl-item">
+                  <div class="col-sm-12">
+                    <div class="client-logo"><img src="assets/images/client-logo-4.png" alt="Client Logo"/></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+<!--Press End-->        
+        <!--
         <div class="module-small bg-dark">
           <div class="container">
             <div class="row">
@@ -410,7 +421,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <section class="module" id="contact">
           <div class="container">
             <div class="row">
@@ -450,7 +461,7 @@
             <div class="row">
               <div class="col-sm-3">
                 <div class="widget">
-                  <h5 class="widget-title font-alt">About Titan</h5>
+                  <h5 class="widget-title font-alt">About Ycenter</h5>
                   <p>The languages only differ in their grammar, their pronunciation and their most common words.</p>
                   <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
                   <p>Email:<a href="#">somecompany@example.com</a></p>
@@ -509,7 +520,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">TitaN</a>, All Rights Reserved</p>
+                <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">Ycenter</a>, All Rights Reserved</p>
               </div>
               <div class="col-sm-6">
                 <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>

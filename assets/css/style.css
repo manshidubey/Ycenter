@@ -916,6 +916,17 @@ blockquote {
   margin: 0 0 70px;
 }
 
+.module-title-press {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #111;
+  margin: 0 0 50px;
+}
+
+
 .module-subtitle {
   text-align: center;
   font-size: 16px;
