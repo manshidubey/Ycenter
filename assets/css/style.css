@@ -1793,6 +1793,7 @@ Google map
   width: 50%;
   float: left;
   margin: 0;
+  box-shadow: 5px 5px 2px #888888
 }
 
 .works-grid-3 .work-item {
@@ -1867,9 +1868,9 @@ Google map
 }
 
 .work-item:hover .work-image > img {
-  -webkit-transform: scale(1.1) rotate(2deg);
-  -ms-transform: scale(1.1) rotate(2deg);
-  transform: scale(1.1) rotate(2deg);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2) ;
+  transform: scale(1.2);
 }
 
 .work-item:hover .work-caption {
